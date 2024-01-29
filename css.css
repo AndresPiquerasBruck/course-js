@@ -1,0 +1,72 @@
+body {
+  background: linear-gradient(to bottom, #ffffff, #ffffff, #f8c32a);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 23px;
+}
+
+p {
+  margin: 0px !important;
+  font-weight: 500 !important;
+}
+
+.heading-title {
+  min-height: 125px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add a box shadow for the 3D effect */
+  margin-bottom: 20px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes reverse-slide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos:hover .logos-slide-reverse {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 75s slide infinite linear;
+}
+
+.logos-slide-reverse {
+  display: inline-block;
+  animation: 75s reverse-slide infinite linear;
+}
+
+.epic-card {
+  min-width: 260px !important;
+}
+
+.big-card {
+  min-width: 550px !important;
+}

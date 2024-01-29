@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JS PRACTICE PAGE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="heading-title bg-warning text-bg-warning text-center">
+    <h1 class="p-2">🐔 JS PRACTICE PAGE 🐔</h1>
+    <h4>Currently done (23/25) classes, (00/18) exercices</h4>
+  </div>
+
+  <div class="sliders-container">
+    <div class="logos">
+      <div class="logos-slide">
+        <div class="d-flex">
+          <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+            <p>VARS:</p>
+            <p>- Use let for variables, NEVER VAR.</p>
+            <p>- == is not the same as ===. The first is more lax.</p>
+          </div>
+          <div class="big-card bg-warning text-bg-warning card m-3 p-3 shadow">
+            <p>STRINGS:</p>
+            <p>- Use `` for strings with variables inside instead of "".</p>
+            <p>- string.slice(index) serves to obtain substrings.</p>
+            <p>- string.split(character) serves to split a string into an array.</p>
+          </div>
+          <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+            <p>ARRAYS:</p>
+            <p>- push(), pop(): Like C++, adds or deletes the last item.</p>
+            <p>- unshift(), shift(): Adds or deletes the first item.</p>
+          </div>
+          <div class="big-card bg-warning text-bg-warning card m-3 p-3 shadow">
+            <p>CONDITIONS:</p>
+            <p>- (condition) ? "thing that occurs if true" : "thing that occurs if false"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="logos-slide">
+        <div class="d-flex">
+          <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+            <p>VARS:</p>
+            <p>- Use let for variables, NEVER VAR.</p>
+            <p>- == is not the same as ===. The first is more lax.</p>
+          </div>
+          <div class="big-card bg-warning text-bg-warning card m-3 p-3 shadow">
+            <p>STRINGS:</p>
+            <p>- Use `` for strings with variables inside instead of "".</p>
+            <p>- string.slice(index) serves to obtain substrings.</p>
+            <p>- string.split(character) serves to split a string into an array.</p>
+          </div>
+          <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+            <p>ARRAYS:</p>
+            <p>- push(), pop(): Like C++, adds or deletes the last item.</p>
+            <p>- unshift(), shift(): Adds or deletes the first item.</p>
+          </div>
+          <div class="big-card bg-warning text-bg-warning card m-3 p-3 shadow">
+            <p>CONDITIONS:</p>
+            <p>- (condition) ? "thing that occurs if true" : "thing that occurs if false"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex">
+    <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+      <p>FUNCTIONS:</p>
+      <p>- Anonimous function:</p>
+      <img style="width:300px; border-radius: 10px;" src="./imgs/anonime_function.PNG"/>
+    </div>
+    <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+      <p>FUNCTIONS:</p>
+      <input style="margin-top: 10px;" class="input-group input-group-text" type="text" name="name" placeholder="Subtitle">
+      <button class="m-3 btn btn-danger"> 
+        <p>Change subtitle</p> 
+      </button>
+    </div>
+    <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+      <p>FUNCTIONS WITH DEFAULT PARAMETER:</p>
+      <p>- It uses the default if no parameter is given:</p>
+      <img class="m-2" style="width:300px; border-radius: 10px; margin-top: 10px;" src="./imgs/default_parameter.PNG"/>
+    </div>
+    <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+      <p>EVENTS:</p>
+      <p>- Serves to capture user actions (click, mouseleave, mouseenter...)</p>
+      <img class="m-2" style="width:400px; border-radius: 10px;" src="./imgs/events.png"/>
+    </div>
+  </div>
+
+  <div class="d-flex">
+    <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+      <p>EMULATED CLASSES:</p>
+      <p>- We can emulate them with functions, but in 2015 classes were introduced.</p>
+      <img class="m-1" style="width:275px; border-radius: 10px;" src="./imgs/classes1.png"/>
+    </div>
+    <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+      <p>CLASSES:</p>
+      <p>- Proper class implementation (post 2015):</p>
+      <img class="m-1" style="width:350px; border-radius: 10px;" src="./imgs/classes2.png"/>
+    </div>
+    <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+      <p>CLASSES:</p>
+      <p>- set & get:</p>
+      <img class="m-1" style="width:350px; border-radius: 10px;" src="./imgs/classes3.png"/>
+      <p>- Assigning a value to a property uses the setter automatically. (Same for getter) </p>
+      <img class="m-1" style="width:250px; border-radius: 10px;" src="./imgs/class-getter.png"/>
+    </div>
+  </div>
+
+  <div class="d-flex">
+    <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+      <p>JSON:</p>
+      <p>- Represents data. Can be read like this (old):</p>
+      <img class="m-1" style="width:350px; border-radius: 10px;" src="./imgs/json.png"/>
+    </div>
+    <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+      <p>JSON:</p>
+      <p>- Represents data. Can be read like this (new):</p>
+      <img class="m-1" style="width:400px; border-radius: 10px;" src="./imgs/json2.png"/>
+    </div>
+    <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+      <p>SETINTERVAL/SETTIMEOUT:</p>
+      <p id="hour"></p>
+      <img class="m-1" style="width:400px; border-radius: 10px;" src="./imgs/setinterval.png"/>
+    </div>
+  </div>
+
+  <div class="d-flex">
+    <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+      <p>ASYNC PROGRAMMING: PROMISES</p>
+      <p>- Promises provide a way to manage async programming.</p>
+      <img class="m-1" style="width:400px; border-radius: 10px;" src="./imgs/async-promises.png"/>
+    </div>
+    <div class="big-card bg-warning text-bg-warning card m-3 p-3 shadow">
+      <p>ASYNC PROGRAMMING: FETCH & ASYNC</p>
+      <p>- Another way to manage async programming. Does the same as Promises:</p>
+      <img class="m-1" style="width:450px; border-radius: 10px;" src="./imgs/async2.png"/>
+    </div>
+    <div class="epic-card bg-warning text-bg-warning card m-3 p-3 shadow">
+      <p>DOM MANIPULATION:</p>
+      <div id="dom-manipulation"></div>
+      <img class="m-1" style="width:450px; border-radius: 10px;" src="./imgs/dom-manipulation.png"/>
+    </div>
+  </div>
+
+  <script>
+    let button = document.querySelector('button');
+    let h4 = document.querySelector('h4');
+    let subtitle = document.querySelector('input');
+    let title = document.querySelector('h1');
+
+    function changeSubtitle(subtitle) {
+      h4.innerHTML = `Subtitle changed to: ${subtitle.value}`
+    }
+
+    button.addEventListener('click', ()=>{
+      changeSubtitle(subtitle);
+    })
+
+    title.addEventListener('mouseover', ()=> {
+      title.innerHTML = "Merengue merengue";
+    })
+
+    title.addEventListener('mouseleave', ()=> {
+      title.innerHTML = "🐔 JS PRACTICE PAGE 🐔";
+    })
+
+    title.addEventListener('mouseleave', function(e) {
+      console.log(e);
+    })
+  </script>
+
+  <script>
+    class Mage {
+      constructor(name, staff) {
+        this.name = name;
+        this.staff = staff;
+      }
+
+      attack() { console.log(`I'M ${this.name} AND YOU'RE GONNA DDIIIIIIIIEEEEEE`); };
+      get name() { return this._name; }
+      set name(name) { this._name = name; }
+    }
+
+    mage1 = new Mage("Amador", "Espartaco");
+    mage1.attack();
+    mage1.name = "guatehel";
+    mage1.attack();
+  </script>
+
+  <script>
+    let requestURL = './simpleJson.json';
+    let request = new XMLHttpRequest;
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+
+    request.onload = function () {
+      console.log(request.response[1].name);
+    }
+  </script>
+
+<script>
+  fetch('simpleJson.json').then (function (response){
+    return response.json();
+  }).then (function (json) {
+    console.log(json);
+  }).catch(function (err) {
+    console.log(err.message);
+  });
+</script>
+
+<script>
+  let counter = 0;
+  function displayTime() {
+    counter++;
+    document.getElementById('hour').textContent = counter;
+  }
+
+  const createClock = setInterval(displayTime, 150);
+</script>
+
+<script>
+  const myPromise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const success = true;
+      if (success) {
+        resolve("Operation successful");
+      } else {
+        reject("Operation failed");
+      }
+    }, 1000);
+  });
+
+  myPromise.then((result) => {
+      console.log(result); 
+    }).catch((error) => {
+      console.error(error); 
+    });
+</script>
+
+<script>
+  async function fetchData() {
+    try {
+      const response = await fetch('simpleJson.json');
+      const data = await response.json();
+      console.log('Operation successful:', data);
+    } catch (error) {
+      console.error('Operation failed:', error);
+    }
+  }
+
+  fetchData();
+</script>
+
+<script>
+  const div = document.querySelector("#dom-manipulation");
+  const paragraph = document.createElement("p");
+  
+  paragraph.textContent = "Dinamically created element.";
+  paragraph.style.backgroundColor = "black";
+  paragraph.style.color = "white";
+  paragraph.style.borderRadius = "5px";
+  paragraph.style.padding = "5px";
+  
+  div.appendChild(paragraph);
+</script>
+</body>
+</html>
