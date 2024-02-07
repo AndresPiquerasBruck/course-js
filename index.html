@@ -13,7 +13,7 @@
 
   <div class="heading-title bg-warning text-bg-warning text-center">
     <h1 class="p-2">🐔 JS PRACTICE PAGE 🐔</h1>
-    <h4>Currently done (25/25)🏆 classes, (00/18) exercices</h4>
+    <h4>Currently done (25/25)🏆 classes</h4>
   </div>
 
   <div class="sliders-container">
@@ -70,7 +70,7 @@
     </div>
   </div>
 
-  <div class="d-flex">
+  <div class="d-flex flex-wrap">
     <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
       <p>FUNCTIONS:</p>
       <p>- Anonimous function:</p>
@@ -93,9 +93,6 @@
       <p>- Serves to capture user actions (click, mouseleave, mouseenter...)</p>
       <img class="m-2" style="width:400px; border-radius: 10px;" src="./imgs/events.png"/>
     </div>
-  </div>
-
-  <div class="d-flex">
     <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
       <p>EMULATED CLASSES:</p>
       <p>- We can emulate them with functions, but in 2015 classes were introduced.</p>
@@ -113,9 +110,6 @@
       <p>- Assigning a value to a property uses the setter automatically. (Same for getter) </p>
       <img class="m-1" style="width:250px; border-radius: 10px;" src="./imgs/class-getter.png"/>
     </div>
-  </div>
-
-  <div class="d-flex">
     <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
       <p>JSON:</p>
       <p>- Represents data. Can be read like this (old):</p>
@@ -131,9 +125,6 @@
       <p id="hour"></p>
       <img class="m-1" style="width:400px; border-radius: 10px;" src="./imgs/setinterval.png"/>
     </div>
-  </div>
-
-  <div class="d-flex">
     <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
       <p>ASYNC PROGRAMMING: PROMISES</p>
       <p>- Promises provide a way to manage async programming.</p>
@@ -149,9 +140,6 @@
       <div id="dom-manipulation"></div>
       <img class="m-1" style="width:450px; border-radius: 10px;" src="./imgs/dom-manipulation.png"/>
     </div>
-  </div>
-
-  <div class="d-flex">
     <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
       <p>AJAX: (take data from backend)</p>
       <img class="m-1" style="width:600px; border-radius: 10px;" src="./imgs/AJAX.png"/>
@@ -169,10 +157,93 @@
       src="https://www.google.com/maps/embed/v1/place?key=
         &q=Space+Needle,Seattle+WA">
     </iframe>
-  
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>ARRAY COOL METHODS:</p>
+      <p>- splice(n1, n2): Remove from the n1 position n2 elements. (Returns a new array)</p>
+      <p>- sort(): Sorts the elements alphabetically. (Returns a new array).</p>
+      <p>To sort objects use sort like this: array.sort(function(a, b){return a.property - b.property});</p>
+      <p>- filter(function): Creates a new array with only the parameters that passes the function.</p>
+      <p>- every(function): Checks if every element passes a function.</p>
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>VARIABLES COOL THINGS:</p>
+      <p>- Any variable can be emptied, by setting the value to undefined.</p>
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>TYPEOF / INSTANCEOF:</p>
+      <p>- typeof variable -> Returns the type of variable.</p>
+      <p>typeof returns 6 different types: string, number, boolean, undefined, function and object.</p>
+      <p>- variable instanceof type -> Returns true if the object is an instance of type type.</p>
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>TRY/CATCH:</p>
+      <p>- Tries the code. If it fails, catches the error.</p>
+      <img class="m-1" style="width:300px; border-radius: 10px;" src="./imgs/trycatch.png"/>
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>ARROW FUNCTIONS:</p>
+      <p>- It's a way to write functions in a more "concise" manner.</p>
+      <img class="m-1" style="width:300px; border-radius: 10px;" src="./imgs/arrow functions.png"/>
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>OBJECT ITERABLES:</p>
+      <p>- We can create custom iterables for objects modifying the next function:</p>
+      <img class="m-1" style="width:450px; border-radius: 10px;" src="./imgs/objectsiterables.png"/>
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>In JS there are data structures like in C++.</p>
+      <p>- Maps are like C++ Dictionaries</p>
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>SETS</p>
+      <p>- Sets are like C++ Sets</p>
+      <p>- Sets are Array-type structure but they CAN'T hold duplicates.</p>
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>SELF CALLING FUNCTIONS</p>
+      <p>- Functions that get executed immediately after declaration.</p>
+      <p>- They can't be manually invoked like normal functions.</p>
+      <img class="m-1" style="width:350px; border-radius: 10px;" src="./imgs/selfcalling function.png"/>
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>FUNCTIONS WITH INDEFINITE ARGUMENTS:</p>
+      <p>- They have indefinite number of arguments:</p>
+      <img class="m-2" style="width:300px; border-radius: 10px; margin-top: 10px;" src="./imgs/functionindefargs.png"/>
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>CALL/BIND:</p>
+      <p>- Call/Bind is a function method that allows to an object usage of methods from another objects:</p>
+      <p>Call calls the function, bind returns the function without calling it.</p>
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>FUNCTION CLOSURES:</p>
+      <p>- A closure is a function having access to the parent scope, even after the parent function has closed.</p>
+      <img class="m-2" style="width:450px; border-radius: 10px; margin-top: 10px;" src="./imgs/closure.png"/>
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>ASYNC PROGRAMMING: CALLBACK</p>
+      <p>- A callback is a function passed as an argument to another function.</p>
+      <p>No one uses callbacks because they are difficult to debug. We use</p>
+      <img class="m-1" style="width:400px; border-radius: 10px;" src="./imgs/callback.png"/>
+    </div>
+    <div id="bubbling-outside" class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>BUBBLING & CAPTURING:</p>
+      <p>- Click the image and see the code.</p>
+      <p>Bubbling and capturing refers to the expansion of the events,<br/>from inside out or viceversa.</p>
+      <img id="bubbling-inside" class="m-1" style="height:75px; border-radius: 10px;" src="./imgs/cuchu.png"/>
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>HTMLCollection:</p>
+      <p>- The getElementsByTagName() method returns an HTMLCollection object.</p>
+      <p>An HTMLCollection object is an array-like list (collection) of HTML elements.</p>
+      <img class="m-1" style="width:500px; border-radius: 10px;" src="./imgs/HTMLCollection.png"/>
+    </div>
+    <div class="epic-card bg-warning-subtle card m-3 p-3 shadow">
+      <p>WEB STORAGE API:</p>
+      <img class="m-1" style="width:450px; border-radius: 10px;" src="./imgs/webstorage.png"/>
     </div>
   </div>
-
 
   <script>
     let button = document.querySelector('button');
@@ -303,11 +374,123 @@
   fetch(url)
     .then(response => response.json())
     .then( json => {
-      classFetch = json;
-      for (let i = 0; i < classFetch.length; i++) {
-        console.log(`Name: ${classFetch[i].name}, Staff: ${classFetch[i].staff}`);
+      for (let i = 0; i < json.length; i++) {
+        console.log(`Name: ${json[i].name}, Staff: ${json[i].staff}`);
       }
     })
 </script>
+
+<script>
+  let set1 = new Set();
+  set1.add(1, 2, 3)
+</script>
+
+<script>
+  let abdus = ["k", "a", "n"];
+  console.log("chat: " + abdus.toString());
+  console.log("chat: " + abdus.sort());
+</script>
+
+<script>
+  const fruits = new Map([
+    ["apples", 500],
+    ["bananas", 300],
+    ["oranges", 200]
+  ]);
+
+  // List all entries
+  fruits.forEach((value, key) => {
+    console.log(key + ": " + value);
+  });
+</script>
+
+<script>
+  try {
+    addlert("Welcome guest!");
+  }
+  catch(err) {
+    console.log(err.message);
+  }
+</script>
+
+<script>
+  let myFunction1 = (a, b) => a * b;
+
+  function myFunction2(a, b) { return a * b; }
+</script>
+
+<script>
+  const tonacho = {
+    firstName: "tonachoxd",
+    lastName: "preston",
+
+    vaciarCargador: function() {
+      return this.firstName + " " + this.lastName + ", preparate a morir! ratatatatatatatatatatata"
+    }
+  }
+
+  console.log(tonacho.vaciarCargador());
+</script>
+
+<script>
+
+myNumbers = {};
+
+myNumbers[Symbol.iterator] = function() {
+  let n = 0;
+  done = false;
+  return {
+    next() {
+      n += 10;
+      if (n == 100) {done = true}
+      return {value:n, done:done};
+    }
+  };
+}
+
+let text = ""
+for (const num of myNumbers) {
+  console.log(num);
+}
+</script>
+
+<script>
+  (function () {
+    console.log("tonacho se ha escapado.")
+  })();
+</script>
+
+<script>
+  function myDisplayer(something) {
+    console.log(something)
+  }
+  
+  function myCalculator(num1, num2, myCallback) {
+    let sum = num1 + num2;
+    myCallback(sum);
+  }
+  
+  myCalculator(5, 5, myDisplayer);
+  </script>
+
+  <script>
+    document.getElementById("bubbling-outside").addEventListener("click", function() {
+      alert("You clicked the outside!");
+    }, true);
+    
+    document.getElementById("bubbling-inside").addEventListener("click", function() {
+      alert("You clicked the inside!");
+    }, true);
+  </script>
+<!--   <script>
+    const myCollection = document.getElementsByTagName("p");
+    for (let i = 0; i < myCollection.length; i++) {
+      myCollection[i].style.color = "red";
+    }
+  </script> -->
+  <script>
+    localStorage.setItem("name","Tonacho Preston");
+    console.log(localStorage.getItem("name"));
+  </script>
 </body>
 </html>
